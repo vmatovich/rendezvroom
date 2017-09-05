@@ -2,9 +2,9 @@
     
     font-family: 'permanent_markerregular';
 
-    src: url('permanentmarker-webfont.woff2') format('woff2'),
+    src: font_url('permanentmarker-webfont.woff2') format('woff2'),
 
-         url('permanentmarker-webfont.woff') format('woff');
+         font_url('permanentmarker-webfont.woff') format('woff');
 
     font-weight: normal;
 
