@@ -1,3 +1,4 @@
+
 @import "bootstrap";
 
 
@@ -7,6 +8,15 @@
   background: image_url('Dance.jpg');
 
   box-shadow: 0px 1px 3px #2a2a2a;
+}
+
+.navbar-inverse .navbar-brand {
+  
+  color: #FFFFFF;
+
+  font-family: 'permanent_markerregular';
+
+  font-size: 26px;
 }
 
 
