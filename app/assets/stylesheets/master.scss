@@ -69,3 +69,17 @@ body {
     justify-content: center;
     
 }
+
+.ghost-white-button {
+  
+   color: #FFF;
+
+   background-color: black;
+
+   border: 2px solid white;
+
+   cursor: pointer;
+
+   &:hover{color: blue}
+
+}
