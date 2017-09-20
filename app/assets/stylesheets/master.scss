@@ -92,5 +92,27 @@ body {
 
    &:hover{color: #4933D9}
 
-  }
 
+}
+
+
+.danger-button {
+  
+  color: #4933D9;
+
+  cursor: pointer;
+
+   &:hover{color: red}
+
+}
+
+
+.edit-button {
+  
+   color: orange;
+
+   cursor: pointer;
+
+   &:hover{color: green}
+
+}
