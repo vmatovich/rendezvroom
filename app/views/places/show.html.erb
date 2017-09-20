@@ -14,9 +14,11 @@
 
     <%= link_to 'EDIT', edit_place_path(@place), class: 'edit-button' %>
 
+    <%= link_to 'REMOVE', place_path(@place), method: :delete, data: {confirm: 'Are you sure you want to delete this location?'}, class: 'danger-button' %>
+
     <% end %>
 
-    <%= link_to 'REMOVE', place_path(@place), method: :delete, data: {confirm: 'Are you sure you want to delete this location?'}, class: 'danger-button' %>
+    
 
   </div>
 
