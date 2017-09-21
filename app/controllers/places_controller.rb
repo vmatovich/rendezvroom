@@ -66,8 +66,8 @@ class PlacesController < ApplicationController
   
       else
     
-
         render :edit, status: :unprocessable_entity
+    
     end
 
   end
