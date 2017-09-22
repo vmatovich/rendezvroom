@@ -57,3 +57,15 @@
   </div>
 
 </div>
+
+<div class="clear"></div>
+
+<%= simple_form_for @comment, url: '#' do |f| %>
+
+  <%= f.input :message %>
+
+  <%= f.input :rating %>
+
+  <%= f.submit "Add a Comment", class: 'ghost-white-button' %>
+
+<% end %>
