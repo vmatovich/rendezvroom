@@ -64,8 +64,32 @@
 
   <%= f.input :message %>
 
-  <%= f.input :rating %>
+  <%= f.input :rating, as: :select, collection: Comment::RATINGS %>
 
   <%= f.submit "Add a Comment", class: 'ghost-white-button' %>
+
+<% end %>
+
+<h1>Comments</h1>
+
+<% @place.comments.each do |comment| %>
+
+  <div>
+
+    <blockquote>
+
+      <% if comment.humanized_rating.present? %>
+
+        <b><%= comment.humanized_rating %></b> -
+
+      <% end %>
+
+      <%= comment.message %>
+
+      <small><%= comment.user.email %></small>
+
+    </blockquote>
+
+  </div>
 
 <% end %>
