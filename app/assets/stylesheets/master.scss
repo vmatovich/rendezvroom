@@ -76,7 +76,9 @@ body {
 
    background-color: black;
 
-   border: 2px solid white;
+   border: 2px solid black;
+
+   border-radius: 25 px;
 
    cursor: pointer;
 
@@ -142,3 +144,6 @@ label.control-label abbr[title="required"]{
 .clear {
     clear: both;
 }
+
+
+
