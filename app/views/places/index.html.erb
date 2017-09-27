@@ -2,18 +2,20 @@
 
   <div class="booyah-box col-10 offset-1">
 
-    <h1><%= link_to place.name, place_path(place), class: 'hyperstyle' %></h1><br />
+    <h1><%= link_to place.name, place_path(place) %></h1><br />
 
     <i><%= place.address %></i><br /><br />
 
     <p><%= place.description %></p><br />
 
+  
   <% if place.user.present? %>
 
       <small><%= place.user.email %></small>
 
     <% end %>
 
+    
     <% if place.comments.present? %>
 
       <div class="col-12">
@@ -22,7 +24,7 @@
         
         <% if place.comments.last.humanized_rating.present? %>
           
-          <b><%= comment.humanized_rating %></b> -
+          <b><%= place.comments.last.humanized_rating %></b> -
         
         <% end %>
         
