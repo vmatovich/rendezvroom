@@ -4,7 +4,7 @@ class NotificationMailer < ApplicationMailer
 
   def comment_added
 
-    mail(to: "vmseint@gmail.com",
+    mail(to: "rendezvroomapp@gmail.com",
 
         subject:  "A comment has been added to your place!")
 
