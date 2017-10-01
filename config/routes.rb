@@ -8,7 +8,7 @@ Rails.application.routes.draw do
     
     resources :comments, only: :create
 
-    resources :photos
+    resources :photos, only: :create
   
   end
 
