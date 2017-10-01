@@ -6,6 +6,8 @@ class PlacesController < ApplicationController
 
     @places = Place.all.paginate(page: params[:page], per_page: 3)
 
+    @photo = Photo.new
+
   end
 
   def new
@@ -35,6 +37,8 @@ class PlacesController < ApplicationController
     @place = Place.find(params[:id])
 
     @comment = Comment.new
+
+    @photo = Photo.new
 
   end
 
