@@ -2,9 +2,13 @@ class NotificationMailer < ApplicationMailer
 
   default from: "no-reply@rendezvroomapp.com"
 
-  def comment_added
+  def comment_added(comment)
 
-    mail(to: "rendezvroomapp@gmail.com",
+    @place = comment.place
+
+    @place_owner = @place.user
+
+    mail(to: @place_owner.email,
 
         subject:  "A comment has been added to your place!")
 
