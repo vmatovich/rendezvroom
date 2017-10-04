@@ -10,7 +10,7 @@ class NotificationMailer < ApplicationMailer
 
     mail(to: @place_owner.email,
 
-        subject:  "A comment has been added to your place!")
+        subject:  "A comment has been added to #{@place.name}")
 
   end
 
