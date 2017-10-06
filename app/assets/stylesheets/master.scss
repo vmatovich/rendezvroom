@@ -7,21 +7,59 @@
 
 .navbar {
   
-  background: image_url('Dance.jpg');
-
+  background-color: black;
   box-shadow: 0px 1px 3px #2a2a2a;
 }
 
 .navbar-inverse .navbar-brand {
   
-  color: #FFFFFF;
+  color: #FFFF;
 
   font-family: 'permanent_markerregular';
 
   font-size: 26px;
 }
 
+.bg-inverse {
 
+    background-color: black !important;
+
+}
+
+.navbar-inverse .navbar-toggler-icon {
+
+    background-image: image_url('togglerbutton.jpg');
+}
+
+
+.place-title {
+
+  color: black;
+
+  text-decoration: none;
+
+  cursor: pointer;
+
+  &:hover{color: #45A29E}
+}
+
+.navnav-link {
+    padding-right: 0;
+    padding-left: 0;
+    color: #45A29E;
+}
+
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #45A29E;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
 
 .booyah-box {
   
@@ -52,12 +90,30 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+
+.page-item.active .page-link {
+
+    z-index: 2;
+
+    color: #fff;
+
+    background: transparent;
+
+    border-color: #66fcf1;
+}
+
+
+
 body {
   
-  background: image_url('subtle_carbon.png');
+  background: black;
 
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 
+}
+
+button:focus {
+    outline: none;
 }
 
 .pagination {
@@ -219,7 +275,7 @@ label.control-label abbr[title="required"]{
 
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 
-  font-size: 120px;
+  font-size: 400px;
 
   text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
 
@@ -237,4 +293,11 @@ label.control-label abbr[title="required"]{
 
   box-shadow: 0px 3px 8px #2a2a2a;
   
+}
+
+.placepics{
+  
+  width: 1000px;
+
+  height: 750px;
 }

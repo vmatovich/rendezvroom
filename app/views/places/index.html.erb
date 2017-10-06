@@ -1,14 +1,6 @@
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
-  <ol class="carousel-indicators">
 
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-
-  </ol>
 
   <div class="carousel-inner" role="listbox">
 
@@ -70,7 +62,7 @@
 
   <div class="booyah-box col-10 offset-1">
 
-    <h1><%= link_to place.name, place_path(place) %></h1><br />
+    <h1><%= link_to place.name, place_path(place), class: 'place-title' %></h1><br />
 
     <i><%= place.address %></i><br /><br />
 

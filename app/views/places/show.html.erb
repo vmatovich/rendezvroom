@@ -69,7 +69,7 @@
         <div class="row">
         <% @place.photos.each do |photo| %>
           <div class="col-md-6 col-lg-4 m-photo-container">
-            <%= image_tag photo.picture, :class => 'm-photo-picture' %>
+            <%= image_tag photo.picture, :class => 'placepics' %>
             <div class="clear"></div>
             <p class="m-photo-caption">
               <%= photo.caption %>
