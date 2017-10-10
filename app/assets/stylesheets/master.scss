@@ -3,6 +3,13 @@
 
 @import "font-awesome";
 
+.carousel-font{
+  
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+}
+
 
 
 .navbar {
@@ -47,6 +54,7 @@
     padding-right: 0;
     padding-left: 0;
     color: #45A29E;
+    &:hover{color: #66fcf1}
 }
 
 
@@ -138,25 +146,27 @@ button:focus {
 
    cursor: pointer;
 
-   &:hover{color: orange}
+   &:hover{color: #66fcf1}
 
 }
 
-.inverse-ghost-white-button {
+
+  .inverse-ghost-white-button {
   
-   color: #black;
+   color: #white;
 
-   background-color: white;
+   background-color: transparent;
 
-   border: 2px solid black;
+   border: 2px solid #66fcf1;
 
    border-radius: 25 px;
 
    cursor: pointer;
 
-   &:hover{color: orange}
+   &:hover{color: #66fcf1}
 
 }
+
 
 .hyperstyle {
   
@@ -301,3 +311,6 @@ label.control-label abbr[title="required"]{
 
   height: 750px;
 }
+
+
+
