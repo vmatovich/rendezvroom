@@ -57,6 +57,14 @@
     &:hover{color: #66fcf1}
 }
 
+.myprofile-link {
+  
+  padding-right: 30px;
+  padding-left: 0;
+  color: #45A29E;
+  &:hover{color: #66FCF1}
+}
+
 
 .page-link {
     position: relative;
@@ -136,22 +144,20 @@ button:focus {
 
 .ghost-white-button {
   
-   color: #FFF;
+  color: #FFF;
 
-   background-color: black;
+  background-color: black;
 
-   border: 2px solid black;
+  border: 2px solid black;
 
-   border-radius: 25 px;
+  border-radius: 25px;
 
-   cursor: pointer;
+  cursor: pointer;
 
-   &:hover{color: #66fcf1}
-
+  &:hover{color: #66fcf1}
 }
 
-
-  .inverse-ghost-white-button {
+.inverse-ghost-white-button {
   
    color: #white;
 
