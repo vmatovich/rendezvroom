@@ -1,5 +1,7 @@
 Rails.application.configure do
 
+  config.action_mailer.default_url_options = { host: 'rendezvroom-veronica-matovich.herokuapp.com'}
+
 
   ActionMailer::Base.smtp_settings = {
     address: 'smtp.sendgrid.net',
