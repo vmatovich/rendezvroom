@@ -48,6 +48,7 @@
   cursor: pointer;
 
   &:hover{color: #45A29E}
+
 }
 
 .navnav-link {
@@ -104,6 +105,8 @@ h1, h2, h3, h4, h5, h6 {
 
   padding: 0;
 
+  color: #45A29E;
+
 }
 
 
@@ -140,6 +143,16 @@ button:focus {
 
     justify-content: center;
     
+}
+
+.comment-modal-button {
+
+  text-color: #ffff;
+  
+  background-color: none;
+
+  border-color: none;
+  
 }
 
 .ghost-white-button {
@@ -182,6 +195,22 @@ button:focus {
 
    &:hover{color: #4933D9}
 
+
+}
+
+.place-page-button{
+  
+   color: black;
+
+   background-color: white;
+
+   border: 2px solid white;
+
+   border-radius: 25 px;
+
+   cursor: pointer;
+
+   &:hover{color: #66fcf1}
 
 }
 
